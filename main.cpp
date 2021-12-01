@@ -20,7 +20,7 @@ int main() {
 
   //actual implementation
   Player** players = new Player*[2];
-  players[0] = new humanPlayer('X', 'O');
+  players[0] = new humanPlayer('X', 'O'); //the arguments of the 2 players must be opposite
   players[1] = new computerPlayer('O', 'X');
   Board* board = new Board(' ');
 
